@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>后台管理系统--登录</title>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+      		<script src="js/html5shiv.min.js"></script>
+      		<script src="js/respond.min.js"></script>
+   		<![endif]-->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		
+		<!--头部开始-->
+		<header>
+			<nav class="nav navbar-fixed-top">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="logo col-md-2 col-xs-2">
+							<img src="img/pro_logo.jpg" alt="logo" />
+						</div>
+
+						<ul class="col-md-10 col-xs-10 user">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="user-img" src="img/user.jpg"><span class="caret"></span></a>
+								<ul class="dropdown-menu dropdown-menu-right">
+									<li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;修改个人信息</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-bell"></span>&nbsp;修改密码</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;退出登录</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--头部结束-->
+
+		<div class="main-content">
+			
+			<!--左侧导航栏开始-->
+			<aside>
+				<div>
+					<ul>
+						<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;主页</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle active" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="glyphicon glyphicon-cog"></span>&nbsp;系统管理
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+								<li><a href="#">用户管理</a></li>
+								<li><a href="#">课程配置</a></li>
+								<li><a href="#">数据统计</a></li>
+								<li><a href="#">系统设置</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><span class="glyphicon glyphicon-book"></span>&nbsp;学习资源管理</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon glyphicon-asterisk"></span>&nbsp;项目管理</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp;社区管理</a></li>
+					</ul>
+				</div>
+			</aside>
+			<!--左侧导航栏结束-->
+			
+			
+			<div class="main-box">
+				<div class="title">
+					<h2>中国移动后台管理系统</h2>
+				</div>
+				<div class="location">
+					<ol class="breadcrumb">
+						<li><a href="#">主页</a></li>
+						<li><a href="#">系统管理</a></li>
+						<li class="active">用户管理</li>
+					</ol>
+				</div>
+				<div class="head">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<a href="#"><img src="img/head1.png" /></a>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<a href="#"><img src="img/head1.png" /></a>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<a href="#"><img src="img/head1.png" /></a>
+							</div>
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<a href="#"><img src="img/head1.png" /></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+				
+				<div class="user-list">
+					<div class="user-manage">
+						<button class="btn btn-primary">添加用户</button>
+						<form class="form-inline">
+							<div class="form-group">
+								<label class="sr-only" for="exampleInputEmail3">user name</label>
+								<input type="email" class="form-control" id="exampleInputEmail3" placeholder="请输入用户名称...">
+							</div>
+							<button type="submit" class="btn btn-info">搜素</button>
+						</form>
+					</div>
+
+
+					<!--用户列表开始-->
+					<table class="table table-bordered">
+						<tr>
+							<th>姓名</th>
+							<th>性别</th>
+							<th>年龄</th>
+							<th>联系方式</th>
+							<th>所在部门</th>
+							<th>用户状态</th>
+							<th>操作</th>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td><a href="#">张三</a></td>
+							<td>男</td>
+							<td>34</td>
+							<td>1337896888</td>
+							<td>技术部</td>
+							<td>启用</td>
+							<td>
+								<button class="btn btn-primary btn-sm">编辑</button>
+								<button class="btn btn-danger btn-sm">删除</button>
+							</td>
+						</tr>
+					</table>
+					<!--用户列表结束-->
+					
+					<!--分页开始-->
+					<nav>
+						<ul class="pagination">
+							<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+							<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">1 <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">2 <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+							<li><a href="#">5 <span class="sr-only">(current)</span></a></li>
+							<li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+							</li>
+						</ul>
+					</nav>
+					<!-- 分页结束-->
+					
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<!-- 让ie9及以下支持 placehoder属性-->
+		<script src="js/jquery.placeholder.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/collapse.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/dropdown.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

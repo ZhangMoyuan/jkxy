@@ -1,0 +1,401 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 13px;
+	font-family: arial;
+}
+
+.warp {
+	min-width: 810px;
+	min-height: 600px;
+	position: relative;
+	height: 100%;
+}
+
+
+/*头部样式开始*/
+
+nav ul {
+	float: right;
+	margin-right: 96px;
+	padding: 0px;
+	position: relative;
+	margin-top: 19px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+}
+
+nav ul li a {
+	list-style: none;
+	padding-left: 15px;
+	text-decoration: underline;
+	font: bold 13px/24px simsun;
+	color: #333;
+}
+
+nav ul li a:hover {
+	color: #0000FF;
+}
+
+nav ul li a.normal {
+	font: normal 13px/24px simsun;
+}
+
+nav .more {
+	display: inline-block;
+	font: normal 13px/24px simsun;
+	color: white;
+	width: 56px;
+	background-color: #3385ff;
+	padding-left: 5px;
+	margin-left: 19px;
+	margin-top: 7px;
+	text-decoration: none;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+
+nav .morehover {
+	display: block;
+	position: absolute;
+	top: -4px;
+	right: 0px;
+	width: 85px;
+	height: 50px;
+	text-align: center;
+	color: #333;
+	background-color: #f9f9f9;
+	font: normal 13px/40px simsun;
+	border-bottom: 1px solid #f0f0f0;
+	padding-top: 15px;
+}
+
+nav .more:hover {
+	display: block;
+	position: absolute;
+	top: -12px;
+	right: 0px;
+	width: 85px;
+	height: 50px;
+	text-align: center;
+	color: #333;
+	background-color: #f9f9f9;
+	font: normal 13px/40px simsun;
+	border-bottom: 1px solid #f0f0f0;
+	padding-top: 15px;
+}
+
+
+/*隐藏侧栏样式开始*/
+
+nav aside {
+	display: none;
+	min-width: 85px;
+	width: auto !important;
+	width: 85px;
+	height: calc(100% - 50px);
+	background-color: #f9f9f9;
+	position: absolute;
+	top: 50px;
+	right: 0px;
+	z-index: 100;
+	;
+}
+
+nav aside a {
+	display: block;
+	margin: 0px auto;
+	font: normal 13px/40px simsun;
+	color: #666;
+	border-bottom: 1px solid #f0f0f0;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav aside a.gdcp {
+	display: block;
+	margin: 0px auto;
+	margin-top: 10px;
+	font: normal 13px/40px simsun;
+	color: #666;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav aside a:hover {
+	text-decoration: underline;
+}
+
+nav aside a span {
+	display: block;
+	margin: 0px auto;
+	margin-top: 15px;
+}
+
+nav aside .bj1 {
+	width: 40px;
+	height: 36px;
+	background: url(../img/bdbri_icons_2e35e84b.png) -72px 0px no-repeat;
+}
+
+nav aside .bj2 {
+	width: 38px;
+	height: 36px;
+	background: url(../img/bdbri_icons_2e35e84b.png) -112px 0px no-repeat;
+}
+
+nav aside .bj3 {
+	width: 36px;
+	height: 36px;
+	background: url(../img/bdbri_icons_2e35e84b.png) -36px 0px no-repeat;
+}
+
+nav aside .bj4 {
+	width: 36px;
+	height: 36px;
+	background: url(../img/bdbri_icons_2e35e84b.png) -185px 0px no-repeat;
+}
+
+nav aside .bj5 {
+	width: 36px;
+	height: 36px;
+	background: url(../img/bdbri_icons_2e35e84b.png) -221px 0px no-repeat;
+}
+
+
+/*隐藏侧栏样式结束*/
+
+nav .set {
+	display: none;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 27px;
+	right: -21px;
+}
+
+nav .set li {
+	list-style: none;
+	display: block;
+}
+
+
+/*css3 三角*/
+
+nav .triangle-up {
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #F0F0F0;
+	position: relative;
+	right: -19px;
+	top: -10px
+}
+
+nav .set li a {
+	display: block;
+	padding: 0px 5px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #333
+}
+
+nav .set li a:hover {
+	background-color: #317ef3;
+	color: white;
+}
+
+nav li:hover ul {
+	display: block;
+}
+
+nav li:hover .triangle-up {
+	display: block;
+}
+
+
+/*头部样式结束*/
+
+
+/*主体样式开始*/
+
+article {
+	clear: right;
+}
+
+article .logo {
+	display: block;
+	margin: 0px auto;
+	margin-top: 158px;
+	width: 270px;
+	height: 129px;
+}
+
+article .search {
+	width: 700px;
+	margin: 25px auto;
+	font-size: 0px;
+	text-align: center;
+	position: relative;
+}
+
+article .search form {
+	width: 631px;
+	height: 36px;
+	margin: 10px auto;
+}
+
+article .search .input_text {
+	width: 531px;
+	height: 36px;
+	float: left;
+	position: relative;
+}
+
+article .search input[type=text] {
+	width: 494px;
+	height: 34px;
+	font: normal 16px/24px simsun;
+	padding-left: 5px;
+	padding-right: 30px;
+	border: 1px solid #b6b6b6;
+	outline: none;
+}
+
+article .search input[type=text]:focus {
+	border: 1px solid #3385ff;
+}
+
+article .search input[type=text]:hover {
+	border: 1px solid #999;
+}
+
+article .search input[type=submit] {
+	float: left;
+	border: 0px;
+	background-color: #3385ff;
+	height: 36px;
+	width: 100px;
+	font: normal 15px/28px simsun;
+	color: white;
+}
+
+article .search input[type=submit]:hover {
+	background-color: #317ef3;
+	cursor: pointer;
+}
+
+article .camera {
+	display: inline-block;
+	width: 18px;
+	height: 15px;
+	background: url(../img/1.png) 0 0 no-repeat;
+	position: absolute;
+	left: 500px;
+	top: 10px;
+}
+
+article .camera:hover {
+	background: url(../img/1.png) 0px -21px no-repeat;
+}
+
+
+/*主体样式结束*/
+
+
+/*底部样式开始*/
+
+footer {
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	left: 0px;
+	bottom: 75px;
+	text-align: center;
+}
+
+footer .appcode {
+	display: inline-block;
+	min-width: 277px;
+	width: auto !important;
+	width: 277px;
+}
+
+footer .appcode .baidu {
+	display: inline-block;
+	height: 60px;
+	padding-left: 60px;
+	background: url(../img/bd-app.png) 0 0 no-repeat;
+}
+
+footer .appcode .nuomi {
+	display: inline-block;
+	height: 60px;
+	padding-left: 60px;
+	margin-left: 20px;
+	background: url(../img/nuomi.png) 0 0 no-repeat;
+}
+
+footer .appcode p {
+	font: normal 13px/24px simsun;
+	color: #999;
+	margin: 5px 6px;
+}
+
+footer .appcode p.name {
+	font: bold 13px/24px simsun;
+	color: #666;
+}
+
+footer .ftConw {
+	display: inline-block;
+	height: 60px;
+	margin-left: 20px;
+	font: normal 13px/24px arial;
+	text-align: left;
+	color: #999;
+	position: relative;
+	top: 8px;
+	left: 0px;
+}
+
+footer .ftConw p {
+	margin: 0px;
+	color: #999;
+}
+
+footer .ftConw a {
+	text-decoration: underline;
+	color: #999;
+}
+
+footer .ftConw .lh a {
+	margin-left: 52px;
+	font: normal 13px/22px "微软雅黑";
+}
+
+footer .ftConw .lh a.bdindex {
+	color: #999;
+	margin-left: 0px;
+}
+
+
+/*底部样式结束*/

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>简易计算器</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<h1>简易计算器</h1>
+		<form action="#">
+			<div class="main">
+				<input type="number" id="num1" required="required" />
+
+				<select id="operator">
+					<option>+</option>
+					<option>-</option>
+					<option>*</option>
+					<option>/</option>
+				</select>
+
+				<input type="number" id="num2" required="required" />
+
+				<span>=</span>
+
+				<input type="number" id="sum" value="" disabled="disabled" />
+
+				<input type="button" value="计算" onclick="count()" ; />
+			</div>
+		</form>
+	</body>
+
+</html>

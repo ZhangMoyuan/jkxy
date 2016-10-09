@@ -1,0 +1,32 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin-top: 100px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+div {
+	margin: 0 auto;
+	width: 400px;
+	height: 100px;
+}
+
+div input[type=number] {
+	width: 240px;
+	height: 25px;
+}
+
+div input[type=submit] {
+	width: 100px;
+	height: 32px;
+	background-color: #006DCC;
+	color: #fff;
+	margin-left: 30px;
+	border: 1px;
+	cursor: pointer;
+}

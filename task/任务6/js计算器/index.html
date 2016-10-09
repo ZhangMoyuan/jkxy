@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>计算器</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		
+	</head>
+	<body class="counter">
+		<div class="main-box" id ="calculator">
+			<form name="calculator" action="#" method="get">
+			<input type="text" name="numScreen" class="screen" value="0" onfocus="this.blur();" />
+				<ul class="fountion">
+					<li><button type="button" class="btn btn-default" id="sin">sin</button></li>
+					<li><button type="button" class="btn btn-default" id="cos">cos</button></li>
+					<li><button type="button" class="btn btn-default" id="tan">tan</button></li>
+					<li><button type="button" class="btn btn-default" id="asin">asin</button></li>
+					<li><button type="button" class="btn btn-default" id="acos">acos</button></li>
+					<li><button type="button" class="btn btn-default" id="atan">atan</button></li>
+				</ul>
+				
+				<ul class="number">
+					<li class="del"><button type="button" class="btn btn-danger gray" id="remove">←</button></li>
+					<li class="del"><button type="button" class="btn btn-danger gray" id="clearscreen">清除</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(1)">1</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(2)">2</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(3)">3</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(4)">4</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(5)">5</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(6)">6</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(7)">7</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(8)">8</button></li>
+					<li><button type="button" class="btn btn-default" onclick="command(9)">9</button></li>
+					<li class="zero"><button type="button" class="btn btn-default" onclick="command(0)">0</button></li>
+					<li><button type="button" class="btn btn-default" id="dot">.</button></li>
+				</ul>
+				
+				<ul class="maths">
+					<li><button type="button" class="btn btn-primary" id="opposite">+/-</button></li>
+					<li><button type="button" class="btn btn-primary" id="reciprocal">1/x</button></li>
+					<li><button type="button" class="btn btn-primary" id="divide">÷</button></li>
+					<li><button type="button" class="btn btn-primary" id="persent">%</button></li>
+					<li><button type="button" class="btn btn-primary" id="times">x</button></li>
+					<li><button type="button" class="btn btn-primary" id="sqrt">√</button></li>
+					<li><button type="button" class="btn btn-primary" id="minus">-</button></li>
+					<li class="equal"><button type="button" class="btn btn-primary" id="equal">=</button></li>
+					<li class="add"><button type="button" class="btn btn-primary" id="plus">+</button></li>
+				</ul>
+			</form>
+			
+		</div>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

@@ -1,0 +1,133 @@
+/*初始化默认样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*页面背景颜色*/
+body {
+	width: 100%;
+	height: auto;
+	background-color: #A88BE2
+}
+
+/*头部样式开始*/
+header{
+	width: 90%;
+	height: 80px;
+	margin: 10px auto 0  auto;
+	padding: 20px;
+	border-top-left-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	border-top-right-radius: 20px;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	background-color: #fff;
+	min-width: 600px;
+}
+
+header h1{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: center;
+	font: bold 40px/80px arial;
+	color: #333;
+}
+
+
+
+/*设置主体样式*/
+.container {
+	width: 90%;
+	min-width: 600px;
+	background-color: #fff;
+	margin: 0 auto 30px auto;
+	padding: 20px;
+	border-bottom-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+
+
+/*边栏样式*/
+aside{
+	float: left;
+	width: 20%;
+	height: auto;
+	background-color: #fff;
+}
+
+
+aside ul{
+	width: 90%;
+	list-style: none;
+	background-color: #F0F0F0;
+	margin-top: 20px;
+	border-radius:10px ;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+}
+
+aside ul li a{
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font: normal 14px/40px arial;
+	color: #006DCC;
+}
+
+aside ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/*设置每个模块样式*/
+
+article{
+	box-sizing: border-box;
+	margin-left: 20%;
+	padding-left: 10px;
+	width: 80%;
+	background-color: #fff;
+}
+
+article section {
+	-webkit-border-radius: 10px;
+	border: 1px solid #CCCCCC;
+	background-color: #F0F0F0;
+	padding: 20px;
+	margin: 20px;
+}
+
+article section h2 {
+	font: bold 16px/40px "微软雅黑";
+	color: #FF0000;
+}
+
+article section p {
+	font: normal 14px/25px "微软雅黑";
+	color: #333;
+}
+
+
+article section ul{
+	list-style-type: lower-latin;
+}
+
+article section ul li{
+	margin-left: 24px;
+}
+
+
+article section .box-img img {
+	width: 400px;
+	height: 300px;
+}
+
+

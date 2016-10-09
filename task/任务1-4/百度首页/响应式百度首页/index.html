@@ -1,0 +1,281 @@
+<!DOCTYPE html >
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>百度一下，你就知道</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/baidu.css" />
+		<!-- Bootstrap css file v2.2.1 -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<!--[if lte IE 6]>
+		  <link rel="stylesheet" type="text/css" href="css/bootstrap-ie6.css">
+		  <link rel="stylesheet" type="text/css" href="css/ie.css">
+  		<![endif]-->
+		<!--[if IE]>
+			<script src="js/html5.js" type="text/javascript" charset="utf-8"></script>
+		<![endif]-->
+		<link rel="stylesheet" href="css/iconfont.css" type="text/css" />
+		<script>
+			function showSet() {
+				var set = document.getElementById('set');
+				set.style.display = 'block';
+			}
+
+			function hideSet() {
+				var set = document.getElementById('set');
+				set.style.display = 'none';
+			}
+
+			function show() {
+				var gd = document.getElementById('gd');
+				var more = document.getElementById('more');
+				gd.style.display = 'block';
+				more.className = 'morehover';
+			}
+
+			function hide() {
+				var gd = document.getElementById('gd');
+				var more = document.getElementById('more');
+				gd.style.display = 'none';
+				more.className = 'more';
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<div class="warp">
+			<!--导航栏开始-->
+			<nav>
+				<ul class="pc-nav">
+					<li><a href="http://www.nuomi.com/?cid=002540">糯米</a></li>
+					<li><a href="http://news.baidu.com/">新闻</a></li>
+					<li><a href="https://www.hao123.com/">hao123</a></li>
+					<li><a href="http://map.baidu.com/">地图</a></li>
+					<li><a href="http://v.baidu.com/">视频</a></li>
+					<li><a href="http://tieba.baidu.com/">贴吧</a></li>
+					<li><a href="#" class="normal">登录</a></li>
+					<li>
+						<a href="#" class="normal" onmousemove="showSet()" onmouseout="hideSet()">设置</a>
+
+						<ul class="set" id="set" onmousemove="showSet()" onmouseout="hideSet()">
+							<div class="triangle-up"></div>
+							<!--向上的三角-->
+							<li><a href="#">搜索设置</a></li>
+							<li><a href="#">高级搜索</a></li>
+							<li><a href="#">开启预测</a></li>
+							<li><a href="#">搜索历史</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<!-- m端头部 -->
+				<div class="m-header">
+					<div class="weahter">
+						<a href="#">
+							<span class="iconfont icon-tianqi1"></span>
+							<span class="temperature">18°</span>
+							<div class="weather-status">
+								<p>北京</p>
+								<p>空气&nbsp;31</p> <span>&or;</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="mycenter">
+						<a href="#"><span class="iconfont icon-gerenzhongxin"></span></a>
+						<a href="#"><span class="iconfont icon-yifu"></span></a>
+					</div>
+				</div>
+
+				<a href="#" class="more" id="more" onmousemove="show()" onmouseout="hide()">更多产品</a>
+
+				<!--侧栏开始，鼠标移入时显示-->
+				<aside id="gd" onmousemove="show()" onmouseout="hide()">
+					<a href="#">
+						<span class="bj1"></span> 音乐
+					</a>
+					<a href="#">
+						<span class="bj2"></span> 图片
+					</a>
+					<a href="#">
+						<span class="bj3"></span> 知道
+					</a>
+					<a href="#">
+						<span class="bj4"></span> 风云榜
+					</a>
+					<a href="#">
+						<span class="bj5"></span> 百度推广
+					</a>
+					<a href="#" class="gdcp">全部产品&raquo;</a>
+				</aside>
+				<!--侧栏结束-->
+
+			</nav>
+
+			<!--导航栏结束-->
+
+			<!--内容区开始-->
+			<article>
+				<img class="m-logo" src="img/pid-logo.png" alt="logo" />
+				<img class="pc-logo" src="img/bd_logo1.png" alt="logo" />
+				<div class="search">
+					<form action="#" method="get">
+						<span class="input_text">
+							<input type="text" name="text" class="stext"/>
+							<span class="camera"></span>
+						</span>
+						<input type="submit" name="submit" class="ssubmit" value="百度一下" />
+
+					</form>
+				</div>
+
+				<!--m端导航栏开始-->
+				<div class="m-nav">
+					<ul id="m-nav">
+						<li><a href="#"><span class="iconfont icon-lesson"></span>新闻</a></li>
+						<li><a href="#"><span class="iconfont icon-xiaoshuo"></span>小说</a></li>
+						<li><a href="#"><span class="iconfont icon-video"></span>视频</a></li>
+						<li><a href="#"><span class="iconfont icon-nuo"></span>糯米</a></li>
+						<li><a href="#"><span class="iconfont icon-ditu"></span>地图</a></li>
+						<li><a href="#" onclick="showMore()"><span class="iconfont icon-xia"></span>更多</a></li>
+						<li><a href="#"><span class="iconfont icon-icon1460191599233"></span>贴吧</a></li>
+						<li><a href="#"><span class="iconfont icon-tupian"></span>图片</a></li>
+						<li><a href="#"><span class="iconfont icon-wangzhi01"></span>网址</a></li>
+						<li><a href="#"><span class="iconfont icon-diqiu"></span>推广</a></li>
+					</ul>
+				</div>
+				<!--m端导航栏结束-->
+
+				<!--m端导内容区域开始-->
+				<div class="plus-title">
+					<h2>常用地址<a href="#"><span class="iconfont icon-sandiancaidan"></span></a></h2>
+					<ul>
+						<li><a href="#">资讯</a></li>
+						<li><a href="#">好123</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">爱奇艺</a></li>
+						<li><a href="#">美女</a></li>
+						<li><a href="#">音乐</a></li>
+						<li><a href="#">笑话</a></li>
+						<li><a href="#"><span class="iconfont icon-sandiancaidan"></span></a></li>
+					</ul>
+				</div>
+
+				<div class="clearfloat"></div>
+
+				<div class="plus-title">
+					<h2>实时热点<a href="#"><span class="iconfont icon-ordinaryrefresh"></span>&nbsp;换一批</a><span class="iconfont icon-sandiancaidan"></h2>
+					<ul class="hotword">
+						<li><a href="#">穿山甲鳞片查获</a></li>
+						<li><a href="#">叶良辰撕帝吧吧主叶良辰撕帝吧吧主</a></li>
+						<li><a href="#">住1年维修超40次</a></li>
+						<li><a href="#">爆炸质损车售卖</a></li>
+						<li><a href="#">千年木乃伊穿阿迪</a></li>
+						<li><a href="#">高烧8年无痛无汗</a></li>
+					</ul>
+					<a class="more" href="#">百度风云榜 &gt;</a>
+				</div>
+
+				<div class="plus-title">
+					<h2>百度推荐<a href="#"><span class="iconfont icon-ordinaryrefresh"></span>&nbsp;换一批</a><span class="iconfont icon-sandiancaidan"></h2>
+					<ul class="recommend">
+						<li>
+							<a class="first" href="#">
+								<img src="img/cat.png" alt="推荐" />
+								<p>国内钢价大幅上涨 铁矿石吨价一度冲破60美元</p>
+								<span>18:40</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="clear: left;">
+								<p>山东现“最牛”客车司机 边开车边写笔记</p><span>18:40</span></a>
+						</li>
+						<li>
+							<a href="#">
+								<p>任性！华夏被罚40万李铁不为所动 继续穿错鞋指挥</p><span>18:40</span></a>
+						</li>
+						<li>
+							<a href="#">
+								<p>刘士余召开座谈会 督促市场机构稳健经营、诚信尽责</p><span>18:40</span></a>
+						</li>
+					</ul>
+					<a class="more" href="#">查看更多推荐 &gt;</a>
+				</div>
+
+				<div class="advertisement">
+					<ul>
+						<li><a href="#">百度浏览器，上网提速200%</a></li>
+						<li><a href="#">手机百度，最省流量的极速搜索APP</a></li>
+						<li><a href="#">百度推广，让有需求的客户找到你</a></li>
+
+					</ul>
+				</div>
+				<!--m端导内容区域结束-->
+
+			</article>
+			<!--内容区结束-->
+
+			<!--pc端底部开始-->
+			<footer>
+				<div class="ftCon-Wrapper">
+					<div class="appcode">
+						<div class="baidu">
+							<p class="name">手机百度</p>
+							<p>快人一步</p>
+						</div>
+
+						<div class="nuomi">
+							<p class="name">百度糯米</p>
+							<p>一元大餐</p>
+						</div>
+					</div>
+
+					<div class="ftConw">
+						<p class="lh">
+							<a class="bdindex" href="#">把百度设为首页</a>
+							<a href="#">关于百度</a>
+							<a href="#">About Baidu</a>
+						</p>
+						<p class="cp">
+							&copy;2016 Baidu
+							<a href="#">使用前必读</a>
+							<a href="#">意见反馈</a> 京ICP证030173号
+						</p>
+						<p class="jgwab">
+							京公网安备11000002000001号
+						</p>
+					</div>
+				</div>
+			</footer>
+			<!--pc端底部结束-->
+
+			<!--m端底部开始-->
+			<div class="m-footer">
+				<div class="user-feedback">
+					<a href="#">用户反馈</a>
+				</div>
+				<a href="#">使用百度前必读 Baidu 京ICP证030173号</a>
+				<a href="#">京公网安备11000002000001号</a>
+			</div>
+			<!--m端底部 结束-->
+
+		</div>
+
+		<!--点击导航栏“更多” 显示隐藏部分-->
+		<script>
+			function showMore() {
+				var Mnav = document.getElementById('m-nav');
+				var Hmnav = Mnav.offsetHeight + "px";
+				var Hul = "58px"
+				if (Hmnav == Hul) {
+					Mnav.style.height = '116px';
+				} else {
+					Mnav.style.height = '58px';
+				}
+			}
+		</script>
+	</body>
+
+</html>

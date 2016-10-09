@@ -1,0 +1,165 @@
+
+body{
+	background-color: #E9ECF3;
+}
+
+
+/*头部开始*/
+header .nav {
+	width: 100%;
+	min-width: 320px;
+	height: 50px;
+	background-color: #282828;
+}
+
+
+header .nav .logo img {
+	margin-top: 5px;
+	height: 40px;
+}
+
+header .nav ul.user{
+	margin: 0;
+	text-align: right;
+}
+
+header .nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+header .nav ul li a{
+	color: #fff;
+	font: normal 15px/50px "微软雅黑";
+}
+
+
+
+.dropdown .dropdown-menu li a{
+	color: #333;
+	font: normal 14px/30px "微软雅黑";
+	display: block;
+	text-align: left;
+	
+}
+
+.dropdown .dropdown-menu li a:hover{
+	background-color: #E3E3E3;
+	display: block;
+}
+
+
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover {
+	background-color: #000;
+}	
+
+
+.dropdown .user-img{
+	width: 40px;
+	padding-right: 10px;
+}
+
+
+/*主内容区域开始*/
+.main-content {
+	margin-top: 70px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	display: -webkit-flex;
+}
+
+/*左侧导航栏开始*/
+.main-content aside{
+	width: 225px;
+	height: 330px;
+	margin-left:10px;
+	margin-right: 10px;
+}
+
+.main-content .main-box{
+	width: 100%;
+	margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	flex: 1;
+	-webkit-flex: 1;
+	background-color: #fff;
+}
+
+
+aside ul{
+	margin: 10px;
+	padding: 0px;
+	background-color: #fff;
+}
+
+aside ul li{
+	list-style: none;
+	border-bottom: 1px solid #eee;
+}
+
+aside ul li a{
+	display: block;
+	font: normal 15px/50px "微软雅黑";
+	color: #666;
+	padding-left: 10px;
+}
+
+aside ul li a:hover,
+aside ul li a.active{
+	background-color: #DEB887;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*右侧内容区域开始*/
+.main-box .head img{
+	margin: 10px 0;
+	width: 100%;
+	height: 90px;
+	overflow: hidden;
+}
+
+.main-box .user-list{
+	margin-top: 20px;
+}
+
+.user-list .user-manage button{
+	width: 100px;
+	margin: 10px 20px;
+	
+}
+
+.user-list .user-manage form{
+	display: inline;
+	float: right;
+}
+
+
+.user-list nav{
+	text-align: center;
+}
+
+
+
+/*分辨率小于768时隐藏左侧导航及用户列表*/
+@media only screen and (max-width: 768px) {
+	.main-content aside{
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}
+	
+	.main-box .user-list{
+		width: 0;
+		height: 0;
+		overflow: hidden;
+	}
+}
+
+

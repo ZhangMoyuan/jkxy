@@ -1,0 +1,58 @@
+.container {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+}
+
+.container div {
+	width: 100px;
+	height: 100px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+div.box-top {
+	margin: 0px auto;
+	background-color: #989832;
+}
+
+div.box-left,
+div.box-center,
+div.box-right {
+	float: left;
+}
+
+div.box-left {
+	background-color: #808063;
+}
+
+div.box-center {
+	background-color: #B6C2DC;
+}
+
+div.box-center img {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin-top: 38px;
+	margin-left: 38px;
+}
+
+div.box-center img:hover {
+	width: 100px;
+	height: 100px;
+	margin: 0px;
+}
+
+div.box-right {
+	background-color: #CCDC31;
+}
+
+div.box-bottom {
+	clear: left;
+	margin: 0px auto;
+	background-color: #A88BE2;
+}

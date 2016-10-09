@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>高级前端工程师知识体系</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="wap">
+        <div class="header">
+            <h1>高级前端工程师知识体系</h1>
+        </div>
+        <div class="main">
+            <div class="mind-map">
+                <img src="img/web.png" alt="思维导图">
+            </div>
+            <div class="question">
+                <div class="title">
+                    <h2>高级前端工程师面试题汇总</h2>
+                </div>
+                <div class="question-con">
+                    <H1 style="FONT-SIZE: 28px; FONT-FAMILY: 微软雅黑; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 15px auto 2px; DISPLAY: block; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">HTML、CSS部分</SPAN></H1>
+                    <H2 style="FONT-SIZE: 21px; FONT-FAMILY: 微软雅黑; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 15px auto 2px; DISPLAY: block; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><A class=anchor style="TEXT-DECORATION: none; COLOR: rgb(61,170,204); PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px" href=""></A>要点：对Web标准的理解、浏览器差异、CSS基本功：布局、盒子模型、选择器优先级及使用、HTML5、CSS3、移动端开发 技术等</SPAN></H2>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">1.Doctype作用? 严格模式与混杂模式-如何触发这两种模式，区分它们有何意义?</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    （1）、&lt;!DOCTYPE&gt; 声明位于文档中的最前面，处于 &lt;html&gt; 标签之前。告知浏览器的解析器，用什么文档类型 规范来解析这个文档。 
+
+    （2）、严格模式的排版和 JS 运作模式是  以该浏览器支持的最高标准运行。
+
+    （3）、在混杂模式中，页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止站点无法工作。
+
+    （4）、DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">2.行内元素有哪些？块级元素有哪些？ 空(void)元素有那些？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">（1）CSS规范规定，每个元素都有display属性，确定该元素的类型，每个元素都有默认的display值，比如div默认display属性值为“block”，成为“块级”元素；span默认display属性值为“inline”，是“行内”元素。  
+
+（2）行内元素有：a b span img input select strong（强调的语气） 块级元素有：div ul ol li dl dt dd h1 h2 h3 h4…p  
+
+（3）知名的空元素： &lt;br&gt; &lt;hr&gt; &lt;img&gt; &lt;input&gt; &lt;link&gt; &lt;meta&gt; 
+     鲜为人知的是： &lt;area&gt; &lt;base&gt; &lt;col&gt; &lt;command&gt; &lt;embed&gt; &lt;keygen&gt; &lt;param&gt; &lt;source&gt; &lt;track&gt; &lt;wbr&gt;
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">3.CSS的盒子模型？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">（1）两种， IE 盒子模型、标准 W3C 盒子模型；IE 的content部分包含了 border 和 pading;
+
+（2）盒模型： 内容(content)、填充(padding)、边界(margin)、 边框(border).
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">4.link 和@import 的区别是?</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    （1）、link属于XHTML标签，而@import是CSS提供的;
+
+    （2）、页面被加载的时，link会同时被加载，而@import引用的CSS会等到页面被加载完再加载;
+
+    （3）、import只在IE5以上才能识别，而link是XHTML标签，无兼容问题;
+
+    （4）、link方式的样式的权重 高于@import的权重.
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">5.CSS 选择符有哪些？哪些属性可以继承？优先级算法如何计算？ CSS3新增伪类有那些？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    *   1.id选择器（ # myid）
+        2.类选择器（.myclassname）
+        3.标签选择器（div, h1, p）
+        4.相邻选择器（h1 + p）
+        5.子选择器（ul &lt; li）
+        6.后代选择器（li a）
+        7.通配符选择器（ * ）
+        8.属性选择器（a[rel = "external"]）
+        9.伪类选择器（a: hover, li: nth - child）
+
+    *   可继承： font-size font-family color, UL LI DL DD DT;
+
+    *   不可继承 ：border padding margin width height ;
+
+    *   优先级就近原则，样式定义最近者为准;
+
+    *   载入样式以最后载入的定位为准;
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">优先级为:</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">       !important &gt;  id &gt; class &gt; tag  
+
+       important 比 内联优先级高
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">CSS3新增伪类举例：</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    p:first-of-type 选择属于其父元素的首个 &lt;p&gt; 元素的每个 &lt;p&gt; 元素。
+    p:last-of-type  选择属于其父元素的最后 &lt;p&gt; 元素的每个 &lt;p&gt; 元素。
+    p:only-of-type  选择属于其父元素唯一的 &lt;p&gt; 元素的每个 &lt;p&gt; 元素。
+    p:only-child    选择属于其父元素的唯一子元素的每个 &lt;p&gt; 元素。
+    p:nth-child(2)  选择属于其父元素的第二个子元素的每个 &lt;p&gt; 元素。
+    :enabled、:disabled 控制表单控件的禁用状态。
+    :checked，单选框或复选框被选中。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">6.如何居中div,如何居中一个浮动元素?</SPAN>
+                    </P>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">给div设置一个宽度，然后添加margin:0 auto属性</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    div{
+        width:200px;
+        margin:0 auto;
+     }  
+</CODE></SPAN></PRE>
+                        </LI>
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">居中一个浮动元素</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">      确定容器的宽高 宽500 高 300 的层
+      设置层的外边距
+
+     .div { 
+      Width:500px ; height:300px;//高度可以不设
+      Margin: -150px 0 0 -250px;
+      position:relative;相对定位
+      background-color:pink;//方便看效果
+      left:50%;
+      top:50%;
+    } 
+</CODE></SPAN></PRE>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">7.浏览器的内核分别是什么?经常遇到的浏览器的兼容性有哪些？原因，解决方法是什么，常用hack的技巧 ？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    * IE浏览器的内核Trident、 Mozilla的Gecko、google的WebKit、Opera内核Presto；
+
+    * png24为的图片在iE6浏览器上出现背景，解决方案是做成PNG8.
+
+    * 浏览器默认的margin和padding不同。解决方案是加一个全局的*{margin:0;padding:0;}来统一。
+
+    * IE6双边距bug:块属性标签float后，又有横行的margin情况下，在ie6显示margin比设置的大。 
+
+      浮动ie产生的双倍距离 #box{ float:left; width:10px; margin:0 0 0 100px;} 
+
+     这种情况之下IE会产生20px的距离，解决方案是在float的标签样式控制中加入 ——_display:inline;将其转化为行内属性。(_这个符号只有ie6会识别)
+
+      渐进识别的方式，从总体中逐渐排除局部。 
+
+      首先，巧妙的使用“\9”这一标记，将IE游览器从所有情况中分离出来。 
+      接着，再次使用“+”将IE8和IE7、IE6分离开来，这样IE8已经独立识别。
+
+      css
+          .bb{
+           background-color:#f1ee18;/*所有识别*/
+          .background-color:#00deff\9; /*IE6、7、8识别*/
+          +background-color:#a200ff;/*IE6、7识别*/
+          _background-color:#1e0bd1;/*IE6识别*/
+
+          } 
+
+    *  IE下,可以使用获取常规属性的方法来获取自定义属性,
+       也可以使用getAttribute()获取自定义属性;
+       Firefox下,只能使用getAttribute()获取自定义属性. 
+       解决方法:统一通过getAttribute()获取自定义属性.
+
+    *  IE下,even对象有x,y属性,但是没有pageX,pageY属性; 
+      Firefox下,event对象有pageX,pageY属性,但是没有x,y属性.
+
+    * （条件注释）缺点是在IE浏览器下可能会增加额外的HTTP请求数。
+
+    * Chrome 中文界面下默认会将小于 12px 的文本强制按照 12px 显示, 可通过加入 CSS 属性 -webkit-text-size-adjust: none; 解决.
+
+    超链接访问过后hover样式就不出现了 被点击访问过的超链接样式不在具有hover和active了解决方法是改变CSS属性的排列顺序:
+    L-V-H-A :  a:link {} a:visited {} a:hover {} a:active {}
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">8.html5\CSS3有哪些新特性、移除了那些元素？如何处理HTML5新标签的浏览器兼容问题？如何区分 HTML 和 HTML5？</SPAN>
+                    </P>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">HTML5 现在已经不是 SGML 的子集，主要是关于图像，位置，存储，地理定位等功能的增加。</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">* 绘画 canvas 元素
+
+  用于媒介回放的 video 和 audio 元素
+
+  本地离线存储 localStorage 长期存储数据，浏览器关闭后数据不丢失；
+  sessionStorage 的数据在浏览器关闭后自动删除
+
+  语意化更好的内容元素，比如 article、footer、header、nav、section
+
+  表单控件，calendar、date、time、email、url、search
+
+  CSS3实现圆角，阴影，对文字加特效，增加了更多的CSS选择器  多背景 rgba
+
+  新的技术webworker, websockt, Geolocation
+</CODE></SPAN></PRE>
+                        </LI>
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">移除的元素</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">纯表现的元素：basefont，big，center，font, s，strike，tt，u；
+
+对可用性产生负面影响的元素：frame，frameset，noframes；
+
+* 是IE8/IE7/IE6支持通过document.createElement方法产生的标签，
+  可以利用这一特性让这些浏览器支持HTML5新标签，
+
+  浏览器支持新标签后，还需要添加标签默认的样式：
+
+* 当然最好的方式是直接使用成熟的框架、使用最多的是html5shim框架
+   &lt;!--[if lt IE 9]&gt; 
+   &lt;script&gt; src="http://html5shim.googlecode.com/svn/trunk/html5.js"&lt;/script&gt; 
+   &lt;![endif]--&gt; 
+</CODE></SPAN></PRE>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">9.你怎么来实现页面设计图，你认为前端应该如何高质量完成工作? 一个满屏 品 字布局 如何设计?</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">* 首先划分成头部、body、脚部；。。。。。 
+
+*  
+  实现效果图是最基本的工作，精确到2px；
+
+  与设计师，产品经理的沟通和项目的参与
+
+  做好的页面结构，页面重构和用户体验
+
+  处理hack，兼容、写出优美的代码格式
+
+  针对服务器的优化、拥抱 HTML5。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">10.常使用的库有哪些？常用的前端开发工具？开发过什么应用或组件？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    * 使用率较高的框架有jQuery、YUI、Prototype、Dojo、Ext.js、Mootools等。尤其是jQuery，超过91%。
+
+  轻量级框架有Modernizr、underscore.js、backbone.js、Raphael.js等。
+ （理解这些框架的功能、性能、设计原理）
+
+    * Sublime Text 、Eclipse、Notepad、Firebug、HttpWatch、Yslow。
+
+    * 城市选择插件，汽车型号选择插件、幻灯片插件。弹出层。（写过开源程序，加载器，js引擎更好）
+</CODE></SPAN></PRE>
+                    <OL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 40px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: decimal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">JavaScript原型，原型链 ? 有什么特点？</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">*  原型对象也是普通的对象，是对象一个自带隐式的 __proto__ 属性，原型也有可能有自己的原型，如果一个原型对象的原型不为null的话，我们就称之为原型链。
+*  原型链是由一些用来继承和共享属性的对象组成的（有限的）对象链。
+
+* JavaScript的数据对象有那些属性值？
+
+　　writable：这个属性的值是否可以改。
+
+　　configurable：这个属性的配置是否可以删除，修改。
+
+　　enumerable：这个属性是否能在for…in循环中遍历出来或在Object.keys中列举出来。
+
+　　value：属性值。
+
+* 当我们需要一个属性的时，Javascript引擎会先看当前对象中是否有这个属性， 如果没有的话，就会查找他的Prototype对象是否有这个属性。
+
+ function clone(proto) {
+
+　　function Dummy() { }
+
+　　Dummy.prototype = proto;
+
+　　Dummy.prototype.constructor = Dummy;
+
+　　return new Dummy(); //等价于Object.create(Person);
+
+ } 
+
+        function object(old) {
+    &nbsp;  &nbsp;&nbsp;function F() {};
+    &nbsp;  &nbsp;&nbsp;F.prototype = old;
+    &nbsp;  &nbsp;&nbsp;return new F();
+        }
+    var newObj = object(oldObject);
+</CODE></SPAN></PRE>
+                        </LI>
+                    </OL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">12.列出display的值，说明他们的作用。position的值， relative和absolute定位原点是？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  1.    block 象块类型元素一样显示。
+  none 缺省值。向行内元素类型一样显示。
+  inline-block 象行内元素一样显示，但其内容象块类型元素一样显示。
+  list-item 象块类型元素一样显示，并添加样式列表标记。
+
+  2. 
+  *absolute 
+        生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。 
+
+  *fixed （老IE不支持）
+        生成绝对定位的元素，相对于浏览器窗口进行定位。 
+
+  *relative 
+        生成相对定位的元素，相对于其正常位置进行定位。 
+
+  * static  默认值。没有定位，元素出现在正常的流中
+  *（忽略 top, bottom, left, right z-index 声明）。
+
+  * inherit 规定从父元素继承 position 属性的值。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">13.页面重构怎么操作？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">编写 CSS、让页面结构更合理化，提升用户体验，实现良好的页面效果和提升性能。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">14.语义化的理解？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">html语义化就是让页面的内容结构化，便于对浏览器、搜索引擎解析；
+在没有样式CCS情况下也以一种文档格式显示，并且是容易阅读的。
+搜索引擎的爬虫依赖于标记来确定上下文和各个关键字的权重，利于 SEO。
+使阅读源代码的人对网站更容易将网站分块，便于阅读维护理解。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">15.HTML5的离线储存？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">localStorage    长期存储数据，浏览器关闭后数据不丢失；
+sessionStorage  数据在浏览器关闭后自动删除。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">16.为什么要初始化CSS样式。</SPAN>
+                    </P>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">因为浏览器的兼容问题，不同浏览器对有些标签的默认值是不同的，如果没对CSS初始化往往会出现浏览器之间的页面显示差异。</SPAN>
+                            </P>
+                        </LI>
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">当然，初始化样式会对SEO有一定的影响，但鱼和熊掌不可兼得，但力求影响最小的情况下初始化。</SPAN>
+                            </P>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">*最简单的初始化方法就是： * {padding: 0; margin: 0;} （不建议）</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    淘宝的样式初始化： 
+    body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+    body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+    h1, h2, h3, h4, h5, h6{ font-size:100%; }
+    address, cite, dfn, em, var { font-style:normal; }
+    code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+    small{ font-size:12px; }
+    ul, ol { list-style:none; }
+    a { text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    sup { vertical-align:text-top; }
+    sub{ vertical-align:text-bottom; }
+    legend { color:#000; }
+    fieldset, img { border:0; }
+    button, input, select, textarea { font-size:100%; }
+    table { border-collapse:collapse; border-spacing:0; } 
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">17.(写)描述一段语义的html代码吧。</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    （HTML5中新增加的很多标签（如：&lt;article&gt;、&lt;nav&gt;、&lt;header&gt;和&lt;footer&gt;等）
+     就是基于语义化设计原则）  
+
+        &lt; div id="header"&gt; 
+        &lt; h1&gt;标题&lt; /h1&gt; 
+        &lt; h2&gt;专注Web前端技术&lt; /h2&gt; 
+        &lt; /div&gt;
+</CODE></SPAN></PRE>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">语义 HTML 具有以下特性：</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">文字包裹在元素中，用以反映内容。例如：
+段落包含在 &lt;p&gt; 元素中。
+顺序表包含在&lt;ol&gt;元素中。
+从其他来源引用的大型文字块包含在&lt;blockquote&gt;元素中。
+HTML 元素不能用作语义用途以外的其他目的。例如：
+&lt;h1&gt;包含标题，但并非用于放大文本。
+&lt;blockquote&gt;包含大段引述，但并非用于文本缩进。
+空白段落元素 ( &lt;p&gt;&lt;/p&gt; ) 并非用于跳行。
+文本并不直接包含任何样式信息。例如：
+不使用 &lt;font&gt; 或 &lt;center&gt; 等格式标记。
+类或 ID 中不引用颜色或位置。
+</CODE></SPAN></PRE>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">18.absolute的containing block计算方式跟正常流有什么不同？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">19.position跟display、margin collapse、overflow、float这些特性相互叠加后会怎么样？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">20.对BFC规范的理解？（W3C CSS 2.1 规范中的一个概念,它决定了元素如何对其内容进行定位,以及与其他元素的关 系和相互作用。）</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">21.iframe有那些缺点？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    *iframe会阻塞主页面的Onload事件；
+
+    *iframe和主页面共享连接池，而浏览器对相同域的连接有限制，所以会影响页面的并行加载。
+    使用iframe之前需要考虑这两个缺点。如果需要使用iframe，最好是通过javascript
+    动态给iframe添加src属性值，这样可以可以绕开以上两个问题。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">22.css定义的权重</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">以下是权重的规则：标签的权重为1，class的权重为10，id的权重为100，以下例子是演示各种定义的权重值：
+
+/*权重为1*/
+div{
+}
+/*权重为10*/
+.class1{
+}
+/*权重为100*/
+#id1{
+}
+/*权重为100+1=101*/
+#id1 div{
+}
+/*权重为10+1=11*/
+.class1 div{
+}
+/*权重为10+10+1=21*/
+.class1 .class2 div{
+} 
+
+如果权重相同，则最后定义的样式会起作用，但是应该避免这种情况出现
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">23.eval是做什么的？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">它的功能是把对应的字符串解析成JS代码并运行；
+避免使用eval，不安全，非常耗性能（2次，一次解析成js语句，一次执行）。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">23.写一个通用的事件侦听器函数</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">`// event(事件)工具集，来源：https://github.com/markyun
+markyun.Event = {
+    // 页面加载完成后
+    readyEvent : function(fn) {
+        if (fn==null) {
+            fn=document;
+        }
+        var oldonload = window.onload;
+        if (typeof window.onload != 'function') {
+            window.onload = fn;
+        } else {
+            window.onload = function() {
+                oldonload();
+                fn();
+            };
+        }
+    },
+    // 视能力分别使用dom0||dom2||IE方式 来绑定事件
+    // 参数： 操作的元素,事件名称 ,事件处理程序
+    addEvent : function(element, type, handler) {
+        if (element.addEventListener) {
+            //事件类型、需要执行的函数、是否捕捉
+            element.addEventListener(type, handler, false);
+        } else if (element.attachEvent) {
+            element.attachEvent('on' + type, function() {
+                handler.call(element);
+            });
+        } else {
+            element['on' + type] = handler;
+        }
+    },
+    // 移除事件
+    removeEvent : function(element, type, handler) {
+        if (element.removeEnentListener) {
+            element.removeEnentListener(type, handler, false);
+        } else if (element.datachEvent) {
+            element.detachEvent('on' + type, handler);
+        } else {
+            element['on' + type] = null;
+        }
+    }, 
+    // 阻止事件 (主要是事件冒泡，因为IE不支持事件捕获)
+    stopPropagation : function(ev) {
+        if (ev.stopPropagation) {
+            ev.stopPropagation();
+        } else {
+            ev.cancelBubble = true;
+        }
+    },
+    // 取消事件的默认行为
+    preventDefault : function(event) {
+        if (event.preventDefault) {
+            event.preventDefault();
+        } else {
+            event.returnValue = false;
+        }
+    },
+    // 获取事件目标
+    getTarget : function(event) {
+        return event.target || event.srcElement;
+    },
+    // 获取event对象的引用，取到事件的所有信息，确保随时能使用event；
+    getEvent : function(e) {
+        var ev = e || window.event;
+        if (!ev) {
+            var c = this.getEvent.caller;
+            while (c) {
+                ev = c.arguments[0];
+                if (ev &amp;&amp; Event == ev.constructor) {
+                    break;
+                }
+                c = c.caller;
+            }
+        }
+        return ev;
+    }
+}; 
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">24.99%的网站都需要被重构是那本书上写的？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">* 网站重构：应用web标准进行设计（第2版）
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">25.什么叫优雅降级和渐进增强？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">优雅降级：Web站点在所有新式浏览器中都能正常工作，如果用户使用的是老式浏览器，则代码会检查以确认它们是否能正常工作。由于IE独特的盒模型布局问题，针对不同版本的IE的hack实践过优雅降级了,为那些无法支持功能的浏览器增加候选方案，使之在旧式浏览器上以某种形式降级体验却不至于完全失效.
+
+渐进增强：从被所有浏览器支持的基本功能开始，逐步地添加那些只有新式浏览器才支持的功能,向页面增加无害于基础浏览器的额外样式和功能的。当浏览器支持时，它们会自动地呈现出来并发挥作用。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">26.Node.js的适用场景</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">高并发、聊天、实时消息推送
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">27.WEB应用从服务器主动推送Data到客户端有那些方式？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    html5 websoket
+    WebSocket通过Flash
+    XHR长时间连接
+    XHR Multipart Streaming
+    不可见的Iframe
+    &lt;script&gt;标签的长时间连接(可跨域)
+</CODE></SPAN></PRE>
+                    <HR style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                    <H1 style="FONT-SIZE: 28px; FONT-FAMILY: 微软雅黑; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 15px auto 2px; DISPLAY: block; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><A class=anchor style="TEXT-DECORATION: none; COLOR: rgb(61,170,204); PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px" href="https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions#javascript%E9%83%A8%E5%88%86" name=javascript%E9%83%A8%E5%88%86></A>JavaScript部分</SPAN></H1>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">要点：  数据类型、面向对象、继承、闭包、插件、作用域、跨域、原型链、模块化、自定义事件、异步装载回调、模板引擎、Nodejs等。
+</CODE></SPAN></PRE>
+                    <HR style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">js的几种数据类型：number,string,boolean,object,undefined
+
+js的常见内置对象类：Date,Array,Math、Number、Boolean、String、Array、RegExp、Function...
+</CODE></SPAN></PRE>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">通常可以做一些小练习来判断TA的水平，js 虽然很灵活，但是具体的代码和实现方式能体现出一个人的全局观，随着代码规模的增长，复杂度增加，如何合理划分模块实现功能和接口的能力比较重要。（下面例题）</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">["1", "2", "3"].map(parseInt)
+
+[typeof null, null instanceof Object]
+
+[ [3,2,1].reduce(Math.pow), [].reduce(Math.pow)] ]
+
+ var val = 'smtg';
+ console.log('Value is ' + (val === 'smtg') ? 'Something' : 'Nothing');
+</CODE></SPAN></PRE>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">1.创建一个对象</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">      function Person(name, age) {
+        this.name = name;
+        this.age = age;
+        this.sing = function() { alert(this.name) } 
+      } 
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">2.谈谈This对象的理解。</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">this是js的一个关键字，随着函数使用场合不同，this的值会发生变化。
+
+但是总有一个原则，那就是this指的是调用函数的那个对象。
+
+this一般情况下：是全局对象Global。 作为方法调用，那么this就是指这个对象
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">3.事件、IE与火狐的事件机制有什么区别？ 如何阻止冒泡？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"> 1. 我们在网页中的某个操作（有的操作对应多个事件）。例如：当我们点击一个按钮就会产生一个事件。是可以被 JavaScript 侦测到的行为。  
+ 2. 事件处理机制：IE是事件冒泡、火狐是 事件捕获；
+ 3.  ev.stopPropagation();
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">4.什么是闭包（closure），为什么要用？</SPAN>
+                    </P>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">待完善</SPAN>
+                            </P>
+                        </LI>
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">执行say667()后,say667()闭包内部变量会存在,而闭包内部函数的内部变量不会存在.使得Javascript的垃圾回收机制GC不会收回say667()所占用的资源，因为say667()的内部函数的执行需要依赖say667()中的变量。这是对闭包作用的非常直白的描述.</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  function say667() {
+    // Local variable that ends up within closure
+    var num = 666;
+    var sayAlert = function() { alert(num); }
+    num++;
+    return sayAlert;
+}
+
+ var sayAlert = say667();
+ sayAlert()//执行结果应该弹出的667  
+</CODE></SPAN></PRE>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">5.如何判断一个对象是否属于某个类？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">使用instanceof （待完善）</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">       if(a instanceof Person){
+           alert('yes');
+       }
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">6.new操作符具体干了什么呢?</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  1、创建一个空对象，并且 this 变量引用该对象，同时还继承了该函数的原型。
+  2、属性和方法被加入到 this 引用的对象中。
+  3、新创建的对象由 this 所引用，并且最后隐式的返回 this 。
+
+    var obj  = {};
+    obj.__proto__ = Base.prototype;
+    Base.call(obj); 
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">7.JSON 的了解</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式。它是基于JavaScript的一个子集。数据格式简单, 易于读写, 占用带宽小
+{'age':'12', 'name':'back'}
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">8.js延迟加载的方式有哪些</SPAN>
+                    </P>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">defer和async、动态创建DOM方式（用得最多）、按需异步载入js</SPAN>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">9.ajax 是什么?ajax 的交互模型?同步和异步的区别?如何解决跨域问题?</SPAN>
+                    </P>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">待完善</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  1. 通过异步模式，提升了用户体验
+
+  2. 优化了浏览器和服务器之间的传输，减少不必要的数据往返，减少了带宽占用
+
+  3. Ajax在客户端运行，承担了一部分本来由服务器承担的工作，减少了大用户量下的服务器负载。
+
+  2. Ajax的最大的特点是什么。
+
+  Ajax可以实现动态不刷新（局部刷新）
+  readyState属性 状态 有5个可取值： 0=未初始化 ，1=正在加载 2=以加载，3=交互中，4=完成
+</CODE></SPAN></PRE>
+                        </LI>
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">ajax的缺点</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  1、ajax不支持浏览器back按钮。
+
+  2、安全问题 AJAX暴露了与服务器交互的细节。
+
+  3、对搜索引擎的支持比较弱。
+
+  4、破坏了程序的异常机制。
+
+  5、不容易调试。
+</CODE></SPAN></PRE>
+                        </LI>
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">跨域： jsonp、 iframe、window.name、window.postMessage、服务器上设置代理页面</SPAN>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">10.模块化怎么做？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><A style="TEXT-DECORATION: none; COLOR: rgb(61,170,204); PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px" href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">立即执行函数</A>,不暴露私有成员</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">var module1 = (function(){
+　　　　var _count = 0;
+　　　　var m1 = function(){
+　　　　　　//...
+　　　　};
+　　　　var m2 = function(){
+　　　　　　//...
+　　　　};
+　　　　return {
+　　　　　　m1 : m1,
+　　　　　　m2 : m2
+　　　　};
+　　})(); 
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">11.对Node的优点和缺点提出了自己的看法：</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    *（优点）因为Node是基于事件驱动和无阻塞的，所以非常适合处理并发请求，
+      因此构建在Node上的代理服务器相比其他技术实现（如Ruby）的服务器表现要好得多。
+      此外，与Node代理服务器交互的客户端代码是由javascript语言编写的，
+      因此客户端和服务器端都用同一种语言编写，这是非常美妙的事情。
+
+    *（缺点）Node是一个相对新的开源项目，所以不太稳定，它总是一直在变，
+      而且缺少足够多的第三方库支持。看起来，就像是Ruby/Rails当年的样子。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">12.异步加载的方式</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  (1) defer，只支持IE
+
+  (2) async：
+
+  (3) 创建script，插入到DOM中，加载完毕后callBack
+
+      documen.write和 innerHTML的区别
+
+      document.write只能重绘整个页面
+
+      innerHTML可以重绘页面的一部分
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">13.告诉我答案是多少？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">(function(x){
+    delete x;
+    alert(x);
+})(1+5);
+
+函数参数无法delete删除，delete只能删除通过for in访问的属性。
+当然，删除失败也不会报错，所以代码运行会弹出“1”。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">14.JS中的call()和apply()方法的区别？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">例子中用 add 来替换 sub，add.call(sub,3,1) == add(3,1) ，所以运行结果为：alert(4);</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">注意：js 中的函数其实是对象，函数名是对 Function 对象的引用。</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">function add(a,b)
+{
+    alert(a+b);
+}
+
+function sub(a,b)
+{
+    alert(a-b);
+}
+
+add.call(sub,3,1);  
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">15.Jquery与jQuery UI 有啥区别？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    *jQuery是一个js库，主要提供的功能是选择器，属性修改和事件绑定等等。
+
+    *jQuery UI则是在jQuery的基础上，利用jQuery的扩展性，设计的插件。
+     提供了一些常用的界面元素，诸如对话框、拖动行为、改变大小行为等等
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">16.jquery 中如何将数组转化为json字符串，然后再转化回来？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">jQuery中没有提供这个功能，所以你需要先编写两个jQuery的扩展：</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    $.fn.stringifyArray = function(array) {
+        return JSON.stringify(array)
+    }
+
+    $.fn.parseArray = function(array) {
+        return JSON.parse(array)
+    } 
+
+    然后调用：
+    $("").stringifyArray(array)
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">17.JavaScript中的作用域与变量声明提升？</SPAN>
+                    </P>
+                    <H1 style="FONT-SIZE: 28px; FONT-FAMILY: 微软雅黑; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 15px auto 2px; DISPLAY: block; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><A class=anchor style="TEXT-DECORATION: none; COLOR: rgb(61,170,204); PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px" href="https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions#%E5%85%B6%E4%BB%96%E9%83%A8%E5%88%86" name=%E5%85%B6%E4%BB%96%E9%83%A8%E5%88%86></A>其他部分</SPAN></H1>
+                    <H3 style="FONT-SIZE: 16px; FONT-FAMILY: 微软雅黑; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: bold; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 15px auto 2px; DISPLAY: block; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><A class=anchor style="TEXT-DECORATION: none; COLOR: rgb(61,170,204); PADDING-BOTTOM: 1px; PADDING-TOP: 1px; PADDING-LEFT: 3px; MARGIN: 0px; PADDING-RIGHT: 3px" href="https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions#http%E6%AD%A3%E5%88%99%E4%BC%98%E5%8C%96%E9%87%8D%E6%9E%84%E5%93%8D%E5%BA%94%E5%BC%8F%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9Cseoued%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF" name=http%E6%AD%A3%E5%88%99%E4%BC%98%E5%8C%96%E9%87%8D%E6%9E%84%E5%93%8D%E5%BA%94%E5%BC%8F%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9B%A2%E9%98%9F%E5%8D%8F%E4%BD%9Cseoued%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF></A>（HTTP、正则、优化、重构、响应式、移动端、团队协作、SEO、UED、职业生涯）</SPAN></H3>
+                    <HR style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    *基于Class的选择性的性能相对于Id选择器开销很大，因为需遍历所有DOM元素。
+
+    *频繁操作的DOM，先缓存起来再操作。用Jquery的链式调用更好。   
+     比如：var str=$("a").attr("href");
+
+    *for (var i = size; i &lt; arr.length; i++) {}
+     for 循环每一次循环都查找了数组 (arr) 的.length 属性，在开始循环的时候设置一个变量来存储这个数字，可以让循环跑得更快： 
+     for (var i = size, length = arr.length; i &lt; length; i++) {}
+</CODE></SPAN></PRE>
+                    <UL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 0px 30px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: disc; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">前端开发的优化问题（看雅虎14条性能优化原则）。</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">  （1） 减少http请求次数：CSS Sprites, JS、CSS源码压缩、图片大小控制合适；网页Gzip，CDN托管，data缓存 ，图片服务器。
+
+  （2） 前端模板 JS+数据，减少由于HTML标签导致的带宽浪费，前端用变量保存AJAX请求结果，每次操作本地变量，不用请求，减少请求次数
+
+  （3） 用innerHTML代替DOM操作，减少DOM操作次数，优化javascript性能。
+
+  （4） 当需要设置的样式很多时设置className而不是直接操作style。
+
+  （5） 少用全局变量、缓存DOM节点查找的结果。减少IO读取操作。
+
+  （6） 避免使用CSS Expression（css表达式)又称Dynamic properties(动态属性)。
+
+  （7） 图片预加载，将样式表放在顶部，将脚本放在底部  加上时间戳。
+
+  （8） 避免在页面的主体布局中使用table，table要等其中的内容完全下载之后才会显示出来，显示比div+css布局慢。
+</CODE></SPAN></PRE>
+                        </LI>
+                    </UL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">http状态码有那些？分别代表是什么意思？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    100-199 用于指定客户端应相应的某些动作。 
+    200-299 用于表示请求成功。 
+    300-399 用于已经移动的文件并且常被包含在定位头信息中指定新的地址信息。 
+    400-499 用于指出客户端的错误。400    1、语义有误，当前请求无法被服务器理解。401   当前请求需要用户验证 403  服务器已经理解请求，但是拒绝执行它。
+    500-599 用于支持服务器错误。 503 – 服务不可用
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">一个页面从输入 URL 到页面加载显示完成，这个过程中都发生了什么？（流程说的越详细越好）</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">你所知道的页面性能优化方法有那些？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">除了前端以外还了解什么其它技术么？你最最厉害的技能是什么？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">AMD（Modules/Asynchronous-Definition）、CMD（Common Module Definition）规范区别？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">18.谈谈你认为怎样做能是项目做的更好？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">19.你对前端界面工程师这个职位是怎么样理解的？它的前景会怎么样？</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">20.加班的看法</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">加班就像借钱，原则应当是------救急不救穷
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">21.平时如何管理你的项目，如何设计突发大规模并发架构？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">先期团队必须确定好全局样式（globe.css），编码模式(utf-8) 等
+
+编写习惯必须一致（例如都是采用继承式的写法，单样式都写成一行）；
+
+标注样式编写人，各模块都及时标注（标注关键样式调用的地方）；
+
+页面进行标注（例如 页面 模块 开始和结束）；
+
+CSS跟HTML 分文件夹并行存放，命名都得统一（例如style.css）
+
+JS 分文件夹存放 命民以该JS 功能为准英文翻译；
+
+图片采用整合的 images.png png8 格式文件使用 尽量整合在一起使用方便将来的管理
+</CODE></SPAN></PRE>
+                    <OL style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 40px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <LI style="LIST-STYLE-TYPE: decimal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">
+                            <P style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px auto; PADDING-RIGHT: 0px; TEXT-INDENT: 0px">
+                                <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">那些操作会造成内存泄漏？</SPAN>
+                            </P>
+                            <PRE style="WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">内存泄漏指任何对象在您不再拥有或需要它之后仍然存在。
+垃圾回收器定期扫描对象，并计算引用了每个对象的其他对象的数量。如果一个对象的引用数量为 0（没有其他对象引用过该对象），或对该对象的惟一引用是循环的，那么该对象的内存即可回收。
+
+setTimeout 的第一个参数使用字符串而非函数的话，会引发内存泄漏。
+闭包、控制台日志、循环（在两个对象彼此引用且彼此保留时，就会产生一个循环）
+</CODE></SPAN></PRE>
+                        </LI>
+                    </OL>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">23.你说你热爱前端，那么应该WEB行业的发展很关注吧？ 说说最近最流行的一些东西吧？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">Node.js、Mongodb、npmM、MVVM、MEAN
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">24.你有了解我们公司吗？说说你的认识？</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"> 因为我想去阿里，所以我针对阿里的说
+ 最羡慕就是在双十一购物节，350.19亿元，每分钟支付79万笔。海量数据，居然无一漏单、无一故障。太厉害了。
+</CODE></SPAN></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">25.移动端（比如：Android IOS）怎么做好用户体验?</SPAN>
+                    </P>
+                    <HR style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 13px/20px 微软雅黑; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px auto; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">作为一名前端工程师，无论工作年头长短都应该必须掌握的知识点有：</SPAN>
+                    </P>
+                    <PRE style="FONT-SIZE: 13px; WORD-WRAP: break-word; FONT-VARIANT: normal; WHITE-SPACE: pre-wrap; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0); PADDING-BOTTOM: 0px; FONT-STYLE: normal; PADDING-TOP: 0px; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px; LETTER-SPACING: normal; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><SPAN style="FONT-FAMILY: 'Microsoft YaHei'; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px"><CODE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px">    1、DOM结构 —— 两个节点之间可能存在哪些关系以及如何在节点之间任意移动。
+
+    2、DOM操作 ——如何添加、移除、移动、复制、创建和查找节点等。
+
+    3、事件 —— 如何使用事件，以及IE和标准DOM事件模型之间存在的差别。
+
+    4、XMLHttpRequest —— 这是什么、怎样完整地执行一次GET请求、怎样检测错误。
+
+    5、严格模式与混杂模式 —— 如何触发这两种模式，区分它们有何意义。
+
+    6、盒模型 —— 外边距、内边距和边框之间的关系，及IE8以下版本的浏览器中的盒模型
+
+    7、块级元素与行内元素 —— 怎么用CSS控制它们、以及如何合理的使用它们
+
+    8、浮动元素——怎么使用它们、它们有什么问题以及怎么解决这些问题。
+
+    9、HTML与XHTML——二者有什么区别，你觉得应该使用哪一个并说出理由。
+
+    10、JSON —— 作用、用途、设计结构。
+
+
+    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(255,0,0)"><STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">一般问题</STRONG></SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你用Twitter吗？ （在天朝最好问你用微博吗？）</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→如果用，你都关注那些人？</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你用Github吗？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→如果用，你关注的项目有什么？</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你关注的博客有那些？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用那些版本管理系统，比如Git，SVN等？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你常用的开发环境是怎样的？比如操作系统，文本编辑器，<SPAN class=wp_keywordlink><A title=浏览器 style="TEXT-DECORATION: underline; COLOR: rgb(0,66,118)" href="http://blog.jobbole.com/12749/">浏览器</A></SPAN>，及其他工具等。</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你能描述一下你制作一个网页的工作流程吗？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你能描述一下渐进增强和优雅降级之间的不同吗?</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→如果提到了特性检测，可以加分。</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释一下什么是语义化的HTML？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你更喜欢在哪个浏览器下进行开发？你使用那些开发人员工具？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你如何对网站的文件和资源进行优化？期待的解决方案包括：</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;文件合并</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;文件最小化/文件压缩</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;使用CDN托管</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;缓存的使用</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;其他</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★为什么利用多个域名来存储网站资源会更有效？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→浏览器一次可以从一个域名下做多少资源？</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请说出三种减低页面加载时间的方法。（加载时间指感知的时间或者实际加载时间）</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如果你接到了一个使用Tab来缩进代码的项目，但是你喜欢空格，你会怎么做？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">· 建议这个项目使用像EditorConfig (http://editorconfig.org) 之类的规范</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;为了保持一致性，转换成项目原有的风格</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·&nbsp;直接使用VIM的retab命令</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请写一个简单的幻灯效果页面</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→如果不使用JS来完成，可以加分。</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你都使用那些工作来测试代码的性能？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">· 例如JSPerf (<A onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://jsperf.com']);" class=external style="TEXT-DECORATION: underline; COLOR: rgb(0,66,118)" href="http://jsperf.com/" rel=nofollow target=_blank><SPAN style="COLOR: rgb(136,136,136)">http://jsperf.com/</SPAN></A>)</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">· 例如Dromaeo (<A onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://dromaeo.com']);" class=external style="TEXT-DECORATION: underline; COLOR: rgb(0,66,118)" href="http://dromaeo.com/" rel=nofollow target=_blank><SPAN style="COLOR: rgb(136,136,136)">http://dromaeo.com/</SPAN></A>)</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">· 其它。</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如果今年你打算熟练掌握一项新技术，那会是什么？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请谈一下你对网页标准和标准制定机构重要性的理解。</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★什么是FOUC？你如何来避免FOUC？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(255,0,0)"><STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">HTML相关问题</STRONG></SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★文档类型的作用是什么？你知道多少种文档类型？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★浏览器标准模式和怪异模式之间的区别是什么？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★使用XHTML的局限有那些？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→如果页面使用’application/xhtml+xml’会有什么问题吗？</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如果网页内容需要支持多语言，你会怎么做？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★在设计和开发多语言网站时，有哪些问题你必须要考虑？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★在HTML5的页面中可以使用XHTML的语法吗？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★在HTML5中如何使用XML？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★’data-’属性的作用是什么？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如果把HTML5看作做一个开放平台，那它的构建模块有那些？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请描述一下cookies、sessionStorage和localStorage的区别？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(255,0,0)"><STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">JS相关问题</STRONG></SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用过那些Javascript库？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你是否研究过你所使用的JS库或者框架的源代码？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★什么是哈希表？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★’undefined’变量和’undeclared’变量分别指什么？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★闭包是什么，如何使用它，为什么要使用它？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">→你喜欢的使用闭包的模式是什么？</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请举出一个匿名函数的典型用例？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释什么是Javascript的模块模式，并举出实用实例。</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·如果有提到无污染的命名空间，可以考虑加分。</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"><SPAN style="COLOR: rgb(136,136,136)">·如果你的模块没有自己的命名空间会怎么样？</SPAN></P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你如何组织自己的代码？是使用模块模式，还是使用经典继承的方法？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请指出Javascript宿主对象和内置对象的区别？</P>
+<P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★指出下列代码的区别：</P><PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">function</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;Person(){}&nbsp;</SPAN><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">var</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;person&nbsp;=&nbsp;Person()&nbsp;</SPAN><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">var</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;person&nbsp;=&nbsp;</SPAN><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">new</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;Person()&nbsp;&nbsp;</SPAN></SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★’.call’和’.apply’的区别是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释’Funciton.prototype.bind’的作用？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你如何优化自己的代码？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你能解释一下JavaScript中的继承是如何工作的吗？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★在什么时候你会使用’document.write()’？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(136,136,136)">→大多数生成的广告代码依旧使用’document.write()’，虽然这种用法会让人很不爽。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请指出浏览器特性检测，特性推断和浏览器UA字符串嗅探的区别？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请尽可能详尽的解释AJAX的工作原理。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释JSONP的工作原理，以及它为什么不是真正的AJAX。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用过JavaScript的模板系统吗？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(136,136,136)">→如有使用过，请谈谈你都使用过那些类似库文件。比如Mustache.js、Handlebars等等。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释变量声明提升。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请描述一下事件冒泡机制。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★”attribute”和”property”的区别是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★为什么扩展JavaScript内置对象是个坏做法？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★为什么扩展JavaScript内置对象是个好做法？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请指出document load和document ready的区别。(这是个问题的问题）</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★’==’和’===’有什么不同？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你如何获取浏览器URL中查询字符串中的参数。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释一下JavaScript的同源策略。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释一下事件代理。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请描述一下JavaScript的继承模式。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如何实现下列代码：</P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">[1,2,3,4,5].duplicator();&nbsp;</SPAN><SPAN class=comment style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: rgb(0,130,0); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">//&nbsp;[1,2,3,4,5,1,2,3,4,5]&nbsp;</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;</SPAN></SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★描述一种JavaScript memoization（避免重复运算）的策略。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★什么是三元条件语句？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★函数的参数元是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★什么是”use strict”?使用它的好处和坏处分别是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(255,0,0)"><STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">JS代码示例：</STRONG></SPAN>
+                    </P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">~~3.14&nbsp; &nbsp;</SPAN></SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★问题：上面的语句的返回值是什么？
+                        <STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center"><SPAN class=Apple-converted-space>&nbsp;</SPAN>**答案：3</STRONG>
+                    </P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">"i'm&nbsp;a&nbsp;lasagna&nbsp;hog"</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">.split(</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">""</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">).reverse().join(</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">""</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">);&nbsp;&nbsp;</SPAN></SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★问题：上面的语句的返回值是什么？ **
+                        <STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">答案：”goh angasal a m’i”</STRONG>
+                    </P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">(&nbsp;window.foo&nbsp;||&nbsp;(&nbsp;window.foo&nbsp;=&nbsp;</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">"bar"</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;)&nbsp;);&nbsp;&nbsp;</SPAN></SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★问题：window.foo的值是什么？ **
+                        <STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">答案：”bar”<SPAN class=Apple-converted-space>&nbsp;</SPAN></STRONG>只有window.foo为假时的才是上面答案，否则就是它本身的值。</P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">var</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;foo&nbsp;=&nbsp;</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">"Hello"</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">;&nbsp; &nbsp;</SPAN></SPAN><LI style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">(</SPAN><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">function</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">()&nbsp;{&nbsp;</SPAN><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">var</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;bar&nbsp;=&nbsp;</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">"&nbsp;World"</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">;&nbsp;alert(foo&nbsp;+&nbsp;bar);&nbsp;})();&nbsp; &nbsp;</SPAN><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">alert(foo&nbsp;+&nbsp;bar);&nbsp;</SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★问题：上面两个alert的结果是什么 答案: “Hello World” &amp; ReferenceError: bar is not defined</P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">var</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;foo&nbsp;=&nbsp;[]; &nbsp;</SPAN></SPAN><LI style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">foo.push(1); &nbsp;</SPAN><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">foo.push(2);&nbsp;</SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★问题：foo.length的值是什么？ **答案：’2′</P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN class=keyword style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; FONT-WEIGHT: bold; COLOR: rgb(0,102,153); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">var</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;foo&nbsp;=&nbsp;{}; &nbsp;</SPAN></SPAN><LI style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">&nbsp;foo.bar&nbsp;=&nbsp;</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">'hello'</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">;&nbsp;</SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★问题：foo.length的值是什么？ **答案: undefined</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center"><SPAN style="COLOR: rgb(255,0,0)">jQuery相关问题</SPAN></STRONG>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★解释”chaining”。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★解释”deferreds”。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你知道那些针对jQuery的优化方法。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释’.end()’的用途。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你如何给一个事件处理函数命名空间，为什么要这样做？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请说出你可以传递到jQuery方法的四种不同值。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(153,153,153)">→选择器（字符串），HTML（字符串），回调函数，HTML元素，对象，数组，元素数组，jQuery对象等。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★什么是效果队列？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请指出’.get()’、’[]‘、’eq()’,的区别。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请指出’.bing()’、’.live()’ 和 ‘.delegate()’的区别。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请指出 ‘$’ 和 ‘$.fn’ 的区别？或者解释什么是 ‘$.fn’ 。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请优化下列选择器：</P>
+                    <PRE style="OVERFLOW: auto; WIDTH: 591px; BACKGROUND: rgb(230,230,230); WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 12px/28px 'Courier New', monospace; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 0px 0px 1em; LETTER-SPACING: normal; PADDING-RIGHT: 0px; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px"><OL class=dp-c style="LIST-STYLE-TYPE: decimal; WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: rgb(247,247,247); BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: rgb(92,92,92); PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px 0px 1px 55px; PADDING-RIGHT: 0px"><LI class=alt style="WORD-WRAP: break-word; BORDER-TOP: medium none; BORDER-RIGHT: medium none; BACKGROUND: url(http://images.51cto.com/images/art1105/images/0.gif) repeat-y -498px -70px; BORDER-BOTTOM: medium none; WORD-BREAK: normal; COLOR: ; PADDING-BOTTOM: 0px !important; PADDING-TOP: 0px !important; PADDING-LEFT: 10px !important; BORDER-LEFT: medium none; MARGIN: 0px; LIST-STYLE: decimal none outside; LINE-HEIGHT: 18px; PADDING-RIGHT: 3px !important"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px"><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">$(</SPAN><SPAN class=string style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: blue; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">".foo&nbsp;div#bar:eq(0)"</SPAN><SPAN style="BORDER-TOP: medium none; BORDER-RIGHT: medium none; BORDER-BOTTOM: medium none; COLOR: black; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: medium none; MARGIN: 0px; PADDING-RIGHT: 0px">)&nbsp;</SPAN></SPAN></LI></OL></PRE>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px"></P>
+                    <BR class=Apple-interchange-newline>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(255,0,0)"><STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">CSS相关问题</STRONG></SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★描述css reset的作用和用途。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★描述下浮动和它的工作原理。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★清除浮动的方法有那些，分别适用于什么情形。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★解释css sprites，如何使用。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你最喜欢的图片替换方法是什么，你如何选择使用。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★讨论CSS hacks，条件引用或者其他。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如何为有功能限制的浏览器提供网页。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(153,153,153)">→你会使用那些技术和处理方法。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★何视觉隐藏网页内容，只让它们在屏幕阅读器中可用。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用过网格系统吗？如果使用过，你最喜欢哪种？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用过meidia queries（媒体查询）吗，或者移动网站相关的CSS布局。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你熟悉SVG样式的书写吗？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如何优化网页的打印样式。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★在书写高效CSS文件时会有哪些问题需要考虑。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用CSS预处理器吗？(SASS,Compass,Stylus,LESS)</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(153,153,153)">→如果使用，描述你的喜好。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你是否接触过使用非标准字体的设计？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(153,153,153)">→字体服务，Google Webfonts, Typekit,等等。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★请解释浏览器是如何根据CSS选择器选择对应元素的。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(255,0,0)"><STRONG style="FONT-WEIGHT: bold; TEXT-ALIGN: center">可选的有趣问题</STRONG></SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你编写过的最酷的代码是什么？其中你最自豪的是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你知道HTML5的帮派标志吗？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你是否正在或曾经在一艘船上。(不懂这个幽默）</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你使用的开发工具中，你最喜欢的部分是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你有什么业余项目吗？是那种类型的？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★解释cornify的重要性？(本题完全摸不到头脑）</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★在一张纸上，垂直写下ABCDE，然后不用任何代码，将他们到序排列。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(153,153,153)">→静静地看他们是否将纸翻转。</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★海盗还是忍者？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">
+                        <SPAN style="COLOR: rgb(153,153,153)">→如果是两者的合体，并有恰当理由，可以加分。如果是僵尸猴子海盗加忍者加两分。(译注，此题文化差异过大）</SPAN>
+                    </P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★如果没有在Web开发，你会做什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★卡门圣迭哥的隐藏处在哪里？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">→提示：本题的答案永远是错的。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★你最爱的IE特性是什么？</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★完句填空： Brendan Eich和Doug Crockford是JavaScript的________。</P>
+                    <P style="WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(51,51,51); PADDING-BOTTOM: 0px; PADDING-TOP: 0px; FONT: 14px/28px 宋体; PADDING-LEFT: 0px; WIDOWS: 1; MARGIN: 10px 0px; LETTER-SPACING: normal; PADDING-RIGHT: 0px; BACKGROUND-COLOR: rgb(248,248,248); TEXT-INDENT: 28px; -webkit-text-stroke-width: 0px">★讨论：jQuery是牛逼的库还是最牛逼的库。</P>
+                    </CODE>
+                    </SPAN>
+                    </PRE>
+                    <BR class=Apple-interchange-newline>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

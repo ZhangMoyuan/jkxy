@@ -1,0 +1,474 @@
+
+/*头部样式开始*/
+
+body{
+	overflow-x: hidden;
+	
+}
+header {
+	width: 100%;
+	background-color: #fff;
+}
+
+header .head-top {
+	width: 100%;
+	background-color: #bf2d23;
+	height: 40px;
+	overflow: hidden;
+}
+
+.head-top .intro {
+	width: 1100px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.intro p.welcome {
+	font: normal 14px/40px "微软雅黑";
+	color: #fff;
+	margin: 0;
+	display: inline;
+}
+
+.intro p.welcome a {
+	color: #fff;
+	text-decoration: none;
+	margin: 0 10px 0 10px;
+}
+
+.intro p.welcome a:hover {
+	text-decoration: underline;
+}
+
+.intro .tel {
+	display: inline;
+	position: relative;
+}
+
+.intro .tel img {
+	width: 37px;
+	height: 24px;
+	position: absolute;
+	top: -4px;
+	left: 10px;
+}
+
+.intro .tel p {
+	display: inline;
+	font: normal 14px/40px "微软雅黑";
+	color: #fff;
+	padding-left: 52px;
+}
+
+.intro .tel p span {
+	font-weight: bold;
+}
+
+
+/*头部导航样式开始*/
+header .nav {
+	width: 1100px;
+	margin: 0 auto;
+	height: 100px;
+	overflow: hidden;
+	display: flex;
+}
+
+.nav .logo{
+	max-width: 332px;
+	float: left;
+}
+
+.nav ul {
+	flex: 1;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.nav ul li {
+	float: left;
+	list-style: none;
+}
+
+.nav ul li a {
+	display: block;
+	color: #3b3b3b;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 20px;
+	padding-bottom: 3px;
+}
+
+.nav ul li a.active,
+.nav ul li a:hover {
+	color: #bf2d23;
+	border-bottom: 2px solid #bf2d23;
+}
+
+.nav ul li a p {
+	margin: 0;
+	margin-top: 25px;
+	font: normal 18px/22px "微软雅黑";
+}
+
+.nav ul li a span {
+	font-size: 14px;
+}
+
+
+/*主内容区域开始*/
+.container {
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+.container .banner img {
+	width: 100%;
+}
+
+.container .servive {
+	width: 1100px;
+	height: 290px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.container .servive ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+}
+
+.container .servive ul li {
+	list-style: none;
+	flex: 1;
+	display: inline-block;
+	width: 33%;
+}
+
+.container .servive ul li a{
+	text-decoration: none;
+}
+
+.roundness {
+	width: 192px;
+	height: 192px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin: 45px auto;
+	overflow: hidden;
+}
+
+.roundness-top {
+	width: 192px;
+	height: 80px;
+	background-color: #f5b14e;
+	text-align: center;
+	font: normal 22px/80px "微软雅黑";
+	color: #fff;
+}
+
+.roundness-bottom {
+	width: 192px;
+	height: 112px;
+	background-color: #eca231;
+	text-align: center;
+	font: normal 35px/90px "微软雅黑";
+	color: #fff;
+}
+
+.servive .center .roundness-top {
+	background-color: #658ee3;
+}
+
+.servive .center .roundness-bottom {
+	background-color: #4876d5;
+}
+
+.servive .right .roundness-top {
+	background-color: #ef755d;
+}
+
+.servive .right .roundness-bottom {
+	background-color: #e25d40;
+}
+
+
+/*新闻中心样式开始*/
+.container .news {
+	background-color: #f3f3f3;
+	width: 100%;
+	height: auto;
+	padding-bottom: 20px;
+}
+
+.news .news-content {
+	width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.container .title {
+	font: normal 24px/100px "微软雅黑";
+	color: #d13636;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.news .title span {
+	font: normal 24px/100px "微软雅黑";
+	color: #a6a6a6;
+}
+
+.news .news-content{
+	font-size: 0;
+}
+
+.news .news-content .article {
+	flex: 1;
+	-webkit-flex: 1;
+	display: inline-block;
+	width: 33%;
+	overflow: hidden;
+	background-color: #fff;
+	height: 550px;
+}
+
+.news .news-content .text {
+	height: 140px;
+	overflow: hidden;
+}
+
+.news .news-content .two {
+	height: 180px;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.news .news-content .text p {
+	font: normal 12px/28px "微软雅黑";
+	color: #3b3b3b;
+}
+
+.article .news-img {
+	font-size: 0px;
+	margin-bottom: 30px;
+}
+
+.article .news-img2 {
+	font-size: 0px;
+	margin-top: 50px;
+}
+
+.article .news-img img {
+	width: 367px;
+	height: 221px;
+}
+
+.article .news-img .img-top {
+	width: 367px;
+	height: 59px;
+}
+
+.article .text {
+	padding: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/*实战技能样式开始*/
+.container .skill {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.skill .skill-text {
+	font: normal 14px/28px "微软雅黑";
+	color: #3b3b3b;
+	width: 620px;
+	height: 264px;
+	float: left;
+	margin: 0 30px 0 20px;
+	overflow: hidden;
+}
+
+/*讲师团队样式开始*/
+.container .cases {
+	width: 100%;
+	background-color: #F3F3F3;
+	clear: left;
+}
+
+.cases .cases-content {
+	width: 1100px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.cases .cases-content .silder-l{
+	position: absolute;
+	left: -50px;
+	top: 135px;
+}
+
+.cases .cases-content .silder-r{
+	position: absolute;
+	right: -70px;
+	top: 135px;
+}
+
+.cases .cases-content .silder{
+	margin: 0;
+	padding-left: 20px;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.cases .silder li{
+	list-style: none;
+	flex: 1;
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+
+.cases .silder li img{
+	width: 330px;
+	height: 337px;
+}
+
+/*成功案例样式开始*/
+.container .success{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.success ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.success ul li{
+	flex: 1;
+	-webkit-flex: 1;
+	list-style: none;
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	width: 33%;
+}
+
+.success ul li img{
+	width: 331px;
+	overflow: hidden;
+}
+
+.success ul li h3{
+	text-align: left;
+	padding-left: 18px;
+	font: bold 15px/15px "微软雅黑";
+}
+
+.success ul li p{
+	font: normal 14px/20px "微软雅黑";
+	text-align: left;
+	padding: 0 18px 0 18px;
+}
+
+/*合作伙伴样式开始*/
+.container .parters{
+	width: 1100px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+
+.parters ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	display: -webkit-flex;
+}
+
+.parters ul li{
+	flex: 1;
+	-webkit-flex: 1;
+	display: inline-block;
+	width: 19%;
+	list-style: none;
+	text-align: center;
+}
+
+.parters ul li img{
+	width: 170px;
+	height: 60px;
+	overflow: hidden;
+}
+
+
+
+/*公司介绍样式开始*/
+.container .infor{
+	width: 100%;
+	height: 240px;
+	overflow: hidden;
+	background: url(../images/footer-bj.png) 0 0 no-repeat;
+	background-color: #444;
+	padding-left: 742px;
+    padding-top: 79px;
+    box-sizing: border-box;
+    min-width: 100%;
+}
+
+.infor .infor-box{
+	width: 714px;
+	height: 147px;
+	overflow: hidden;
+}
+
+.infor p{
+	color: #fff;
+	font: normal 12px/24px "微软雅黑" ;
+}
+
+.infor a{
+	color: #999;
+	font: normal 12px/24px "微软雅黑" ;
+	display: block;
+	text-decoration: none;
+}
+
+.infor .about,
+.infor .hrbp,
+.infor .fnews{
+	display: inline-block;
+	width: 128px;
+	text-align: center;
+	border-right: 1px solid #999;
+}
+
+.infor .contact{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.infor .contact p.tel{
+	font: bold 22px/22px "微软雅黑";
+}
+
+footer p{
+	text-align: center;
+	color: #666;
+	font: normal 12px/30px "微软雅黑";
+}

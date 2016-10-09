@@ -1,0 +1,178 @@
+body {
+	font-size: 62.5%;
+	min-width: 320px;
+	background-color: #fea801;
+}
+
+header ul {
+	display: flex;
+	display: -webkit-flex;
+	margin: 0;
+	padding: 0;
+	background-color: #f03333;
+}
+
+header ul li {
+	display: inline;
+	list-style: none;
+	flex: 1;
+	width: 25%;
+	height: 50px;
+}
+
+header ul li.active {
+	background-color: #c4002f;
+}
+
+header ul li a {
+	display: block;
+	font: normal 1.6em/50px "STXihei";
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	border-left: 1px solid #c4002f;
+}
+
+article {
+	padding: 0 20px;
+}
+
+article .banner img {
+	width: 100%;
+	height: auto;
+}
+
+article .zhaopin img {
+	width: 100%;
+	position: relative;
+	top: -3px;
+	margin-bottom: 10px;
+}
+
+article .hongbao img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+article section {
+	background-color: #f03333;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+section .top h2 {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	color: #fff;
+	font: bold 18px/20px "微软雅黑";
+}
+
+section .top a.more {
+	float: right;
+	font: normal 14px/20px "微软雅黑";
+	color: #7d0f0f;
+	text-decoration: none;
+}
+
+section .content ul {
+	margin: 10px 0 0 0;
+	padding: 0;
+	font-size: 0;
+}
+
+section .content ul li {
+	list-style: none;
+	display: inline-block;
+	background-color: #fff337;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 32%;
+	margin-right: 1%;
+	margin-bottom: 5px;
+}
+
+section .content ul li a {
+	display: block;
+	text-decoration: none;
+	color: #b90404;
+	font: normal 17px/40px STXihei;
+	text-align: center;
+}
+
+section .company {
+	background-color: #fff;
+	margin: 10px -7px 5px -7px;
+}
+
+.company .intro img {
+	width: 140px;
+	height: 100px;
+	padding: 10px;
+	float: left;
+}
+
+.company .intro .name {
+	height: 110px;
+	padding: 5px;
+	margin-left: 150px;
+}
+
+.company .intro .name .zmqy {
+	display: inline;
+	font: normal 14px/20px "微软雅黑";
+	background-color: #ff4539;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.company .intro .name .popularity {
+	color: #666;
+	font: normal 12px/20px "微软雅黑";
+}
+
+.company .intro ul {
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+.company .intro ul:last-child {
+	border-bottom: 1px solid #ededed;
+}
+
+.company .intro ul li {
+	list-style: none;
+	padding-left: 10px;
+	font: normal 17px/50px "微软雅黑";
+	border-top: 1px solid #ededed;
+}
+
+.company .intro ul li a {
+	display: block;
+	text-decoration: none;
+	color: #808080;
+}
+
+.company .intro ul li a img {
+	width: 15px;
+	height: 30px;
+	float: right;
+}
+
+a.btn {
+	display: block;
+	font: bold 20px/40px STHeiti;
+	text-align: center;
+	background-color: #ff4539;
+	color: #fff;
+	text-decoration: none;
+	margin: 10px 0 20px 0;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	box-shadow: 0px 4px 0px 0px rgba(203, 25, 25, 0.392);
+}

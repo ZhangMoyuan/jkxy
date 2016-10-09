@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(../img/beijing.gif);
+	color: #333;
+}
+
+header {
+	width: 710px;
+	height: 82px;
+	padding: 1px 20px;
+	margin: 0px auto;
+	margin-top: 20px;
+	background-image: url(../img/jiaos1.gif), url(../img/jiaos2.gif);
+	background-position: left top, right top;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+
+header.logo {
+	width: 180px;
+	height: 76px;
+}
+
+header ul {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	float: right;
+	padding-top: 64px;
+}
+
+header ul li {
+	list-style: none;
+	display: inline;
+}
+
+header a {
+	color: #ff0099;
+	text-decoration: none;
+	font: normal 13px/13px arial;
+}
+
+article {
+	background-color: #FFFFFF;
+	width: 710px;
+	padding: 0px 20px;
+	height: auto;
+	margin: 0px auto;
+}
+
+article table {
+	width: 100%;
+	border-collapse: collapse;
+	font: normal 13px/18px arial;
+	border: 1px solid #cccccc;
+}
+
+article table caption{
+	font: bold 18px/40px arial;
+}
+
+article table thead p{
+	text-align: center;
+}
+
+article table thead p span{
+	color: #ff0000;
+}
+
+article table tr td {
+	border: 1px solid #cccccc;
+	padding: 0px 5px;
+}
+
+article table tr td span{
+	color: #ff0000;
+}
+
+article table input[type=text],
+article table input[type=email],
+article table input[type=tel]{
+	height: 20px;
+	width: 250px;
+}
+
+article table input[type=submit]{
+	display: block;
+	margin: 15px auto;
+	width: 100px;
+	height: 25px;
+}
+
+article table .td-left{
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+}
+
+article table .td-right{
+	width: 560px;
+	text-align: left;
+	padding: 5px;
+	font: normal 13px/21px arial;
+	color: #0000FF;
+}
+
+article table .group{
+	font: bold 13px/20px arial;
+	color: #333333;
+}
+
+article table .group span{
+	color: #FF0000;
+}
+
+article table .checkbox{
+	color: #333333;
+}
+
+article table .section {
+	width: 100%;
+	background-color: #eeeeee;
+	color: #003399;
+	font: bold 14px/26px arial;
+	padding-left: 10px;
+}
+
+footer {
+	width: 710px;
+	height: 46px;
+	padding: 1px 20px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	background-image: url(../img/di1.gif), url(../img/di2.gif);
+	background-position: left bottom, right bottom;
+	background-repeat: no-repeat;
+	background-color: #FFFFFF;
+}
+
+footer p{
+	text-align: center;
+	font: normal 13px/20px arial;
+}
+
+footer p span{
+	color: #666666;
+}
